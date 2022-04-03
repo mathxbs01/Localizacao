@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
             LocationListener locationListener = new LocationListener() {
                 public void onLocationChanged(Location location)
-                {escreverLocalizacao(location); }
+                { escreverLocalizacao(location); }
                 public void onStatusChanged(String provider, int status, Bundle extras) { }
                 public void onProviderEnabled(String provider) { }
                 public void onProviderDisabled(String provider) { }
